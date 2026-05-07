@@ -1,0 +1,12 @@
+{
+  "name": "deepseek-gateway",
+  "version": "1.0.0",
+  "description": "DeepSeek Forward Gateway - proxies Anthropic-formatted requests to DeepSeek API",
+  "main": "server.js",
+  "bin": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "pkg server.js --targets node18-win-x64 --output dist/deepseek-gateway.exe"
+  },
+  "license": "MIT"
+}
